@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Eternas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #F4E1FF;
+            color: #4A0D66;
+            text-align: center;
+        }
+        header {
+            background-color: #4A0D66;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .producto {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            width: 250px;
+        }
+        .producto img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #FFD700;
+            color: #4A0D66;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Flores Eternas
+    </header>
+    <section class="productos">
+        <div class="producto">
+            <img src="flor1.jpg" alt="Arreglo de flores">
+            <h3>Ramo Elegante</h3>
+            <p>Hermoso arreglo en tonos lila y dorado.</p>
+            <a class="btn-whatsapp" href="https://wa.me/931470988">Pedir por WhatsApp</a>
+        </div>
+        <div class="producto">
+            <img src="flor2.jpg" alt="Arreglo de flores">
+            <h3>Rosa Encantada</h3>
+            <p>Rosa eterna en cúpula de cristal.</p>
+            <a class="btn-whatsapp" href="https://wa.me/931470988">Pedir por WhatsApp</a>
+        </div>
+    </section>
+</body>
+</html>
